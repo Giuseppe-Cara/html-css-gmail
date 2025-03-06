@@ -22,6 +22,7 @@ header .container-top img {
 header .container-top span {
     font-size: 3rem;
 }
+
 .circle {
     display: inline-block;
     background-color: #fca311;
@@ -42,4 +43,33 @@ header .container-bottom p {
     padding: 30px 0;
     font-size: 1.5rem;
 
+}
+
+main .email-list {
+    background-color: white;
+    color: black;
+    margin: 30px 0;
+}
+
+.email-list .email-row {
+    padding: 10px;
+    border-bottom: black 1px solid;
+}
+
+.email-list .email-row.selected {
+    background-color: lightgrey;
+
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+}
+
+.text-big {
+    font-size: 2rem;
+}
+
+.italic {
+    font-style: italic;
 }
